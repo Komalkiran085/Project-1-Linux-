@@ -1,6 +1,0 @@
-Workflow:
-1. Start with the manual page (man page) and --help option for internsctl.
-2. Developed scripts for CPU and memory information retrieval (easy level).
-3. Proceed to user management commands (intermediate level).
-4. Lastly, implement the file information command with options (advanced level).
-Remember, for creating users, listing users, and file operations, administrative privileges might be needed, so make sure to handle permissions accordingly within the script.
