@@ -1,0 +1,14 @@
+//General Instruction
+
+1. Installation of the Manual Page: Open Bash and type commands of file bash script
+2. --help Option Implementation: Take reference of bash Script file
+For the --help option, you can handle it within your script to display usage guidelines and examples.
+3. Proceed with workflow 2 as Scripts are under Section B folder
+
+4. For Workflow 3, we will create a Bash script that handles the internsctl file getinfo <file-name> command and its options (--size, --permissions, --owner, --last-modified).
+
+5. Please replace ./path/to/cpu_getinfo_script.sh, ./path/to/memory_getinfo_script.sh, ./path/to/user_create_script.sh, ./path/to/user_list_script.sh, ./path/to/user_sudo_list_script.sh, and ./path/to/file_getinfo_script.sh with the actual paths to your respective scripts handling CPU information retrieval, memory information retrieval, user creation, user listing, sudo user listing, and file information retrieval based on the provided scenarios.
+
+This script acts as a dispatcher that processes commands and options, directing them to the appropriate script handlers for execution based on the input provided to internsctl.
+
+Ensure the appropriate execution permissions are set for this script, and the scripts it calls are accessible and executable by the user running the internsctl command. Test thoroughly to ensure proper functionality.
