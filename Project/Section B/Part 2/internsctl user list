@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# List all regular users
+cut -d: -f1 /etc/passwd

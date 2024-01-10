@@ -1,0 +1,60 @@
+.TH INTERNSCTL 1 "January 2024" "v0.1.0" "internsctl Manual"
+
+.SH NAME
+internsctl \- custom Linux command
+
+.SH SYNOPSIS
+internsctl [options] [command]
+
+.SH DESCRIPTION
+This command is designed to perform various operations on a Linux system.
+
+.SH OPTIONS
+.TP
+.B --help
+Display help information.
+
+.TP
+.B --version
+Display command version.
+
+.SH COMMANDS
+.TP
+.B cpu getinfo
+Get CPU information.
+
+.TP
+.B memory getinfo
+Get memory information.
+
+.TP
+.B user create <username>
+Create a new user.
+
+.TP
+.B user list
+List all regular users.
+
+.TP
+.B user list --sudo-only
+List users with sudo permissions.
+
+.TP
+.B file getinfo <file-name>
+Get information about a file.
+
+.SH EXAMPLES
+Get CPU information:
+.BR internsctl cpu getinfo
+
+List all regular users:
+.BR internsctl user list
+
+.SH SEE ALSO
+lscpu(1), free(1), useradd(8), ls(1)
+
+.SH AUTHOR
+Your Name <your@email.com>
+
+.SH BUGS
+None known.
